@@ -1,6 +1,12 @@
 # Autonomous-Mobile-Robot
 
-This repository includes all the project files related to development of an `Arduino based autonomous mobile robot`. The project was done by a team of 5 undergraduates at Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. Following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
+
+This repository includes all the project files related to development of an `Arduino based autonomous mobile robot`. The project is being done by a team of 5 undergraduates at Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. Following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
+
+## Current Status of the Project
+
+* Currently working on `Algorithm Development` to achieve the given task.
+* Actual robot building stage is not initiated yet.
 
 ![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
 
