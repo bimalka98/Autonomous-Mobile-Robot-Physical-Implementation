@@ -7,14 +7,16 @@ University of Moratuwa, Sri Lanka. Brief introduction about the files in reposit
 ## Documentation
 Documentation folder includes some of the important documents related to the design of mobile robot. Calculations required to make decisions when choosing correct components to build the robot are explained.
 
+## Arduino Sketches
+This folder contains the most fundamental Arduino sketches for various sub tasks encountered while designing the robot.
+* Drive a Servo motor
+* Drive a DC motor through L298N motor driver
+
 ### Team leader   
 Thalagala B.P.
 
 ### Team members
-Sandeepa H.K.C.A
-
-Hewavitharana D.R.
-
-Nagasinghe K.R.Y.
-
-Kumarasinghe H.A.N.H.
+1. Sandeepa H.K.C.A
+2. Hewavitharana D.R.
+3. Nagasinghe K.R.Y.
+4. Kumarasinghe H.A.N.H.
