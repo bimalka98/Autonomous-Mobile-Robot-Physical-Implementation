@@ -26,10 +26,10 @@ calculations required to choose the proper power source for the mobile robot are
 #### Robot Mechanical Design.pdf
 The initial prototype of the mobile robot and the mechanical parts of the robot are explained in this document.
 
-#### Robot Sensors.pdf'
+#### Robot Sensors.pdf
 Sensors used in building the robot is described in this document in descriptive manner and drawbacks of other Sensors are also included.
 
-#### Subsumption Architecture.pdf'
+#### Subsumption Architecture.pdf
 A summary on the `Subsumption Architecture` is given in this document. It is very robust  Control system Architecture which was introduced by R. A. Brooks of MIT in 1985.
 
 
