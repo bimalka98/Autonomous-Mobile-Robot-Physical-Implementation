@@ -1,15 +1,16 @@
 # Autonomous-Mobile-Robot
-![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
-This repository includes all the project files related to development of an Arduino based autonomous mobile robot.
-The project was done by a team of 5 undergraduates at Department of Electronic and Telecommunication Engineering,
-University of Moratuwa, Sri Lanka. Brief introduction about the files in repository are given below.
 
+This repository includes all the project files related to development of an `Arduino based autonomous mobile robot`. The project was done by a team of 5 undergraduates at Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. Following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
+
+![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
+
+Brief introduction about the files in repository are given below.
 ## Documentation
 `Documentation` folder includes some of the important documents related to the design of mobile robot.
 
 
 #### ArduinoMega2560.pdf
-This document includes information about peripheral circuitry of the ArduinoMega2560(Rev3).
+This document includes information about `peripheral circuitry` of the ArduinoMega2560(Rev3).
 
 #### How to choose the correct servo.pdf
 This document includes necessary calculations to choose the correct servo motors for the given task.
