@@ -50,7 +50,8 @@ This folder contains the most fundamental Arduino sketches for various sub tasks
 Thalagala B.P.
 
 ### Team members
-1. Sandeepa H.K.C.A
-2. Hewavitharana D.R.
-3. Nagasinghe K.R.Y.
-4. Kumarasinghe H.A.N.H.
+1. Sandeepa H.K.C.A https://github.com/AvishkaSandeepa
+2. Hewavitharana D.R. 
+3. Nagasinghe K.R.Y. https://github.com/Ravindu-Yasas-Nagasinghe
+4. Kumarasinghe H.A.N.H. https://github.com/nikeshi99
+
