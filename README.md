@@ -51,7 +51,7 @@ Thalagala B.P.
 
 ### Team members
 1. Sandeepa H.K.C.A https://github.com/AvishkaSandeepa
-2. Hewavitharana D.R. 
+2. Hewavitharana D.R. https://github.com/Hevidra
 3. Nagasinghe K.R.Y. https://github.com/Ravindu-Yasas-Nagasinghe
 4. Kumarasinghe H.A.N.H. https://github.com/nikeshi99
 
