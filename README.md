@@ -47,7 +47,7 @@ This folder contains the most fundamental Arduino sketches for various sub tasks
 * Drive a DC motor through L298N motor driver
 
 ### Team leader   
-Thalagala B.P.
+Thalagala B.P. https://github.com/bimalka98
 
 ### Team members
 1. Sandeepa H.K.C.A https://github.com/AvishkaSandeepa
