@@ -5,9 +5,9 @@ This repository includes all the project files related to development of an `Ard
 
 ## Current Status of the Project
 
-* Currently working on `Algorithm Development` to achieve the given task.
 * Algorithms were developed. Coding is to be done.
-* Actual robot building stage is not initiated yet.
+* Actual robot building stage is initialized.
+* 
 
 ![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
 
