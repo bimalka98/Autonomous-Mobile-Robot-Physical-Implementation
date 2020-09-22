@@ -7,7 +7,7 @@ This repository includes all the project files related to development of an `Ard
 
 * Algorithms were developed. 
 * Working on coding.
-* Physical Robot building stage is initialized.
+* Physical Robot building stage was initialized.
 
 
 ![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
