@@ -5,7 +5,7 @@
 #define PWM2 3   //Motor 2 PWM
 #define INAM2 26 //Motor 2
 #define INBM2 28 //Motor 2
-const int avrageSpeed = 160;
+const int avrageSpeed = 70; // Speed of the motors at error 0
 
 //++++++++++++++++++++++++++++++++lINE following++++++++
 long sum_of =0;
@@ -13,13 +13,13 @@ long avg = 0;
 long sensor[16]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 long error = 0;
 long last_error = 0;
-long set_point = 7500;
+long set_point = 750;
 long pos = 0;
 long proportional = 0;
 long derivative = 0;
 long error_value = 0;
-long kp = 0.01;
-long kd = 0.2;
+long kp = 8.5;
+long kd = 27;
 
 
 void setup() {
@@ -36,14 +36,16 @@ void setup() {
 void loop() {
 
   //read_sensor();
-  error_value = pid_calculation();
- Serial.println(error_value);
-motor_driver(avrageSpeed + error_value, avrageSpeed - error_value);
-//  Serial.print(avrageSpeed + error_value);
-//  Serial.print(" ");
-// Serial.print(avrageSpeed - error_value);
-// Serial.println(" " );
- 
+  error_value = pid_calculation()/100;
+ Serial.print(error_value);
+ Serial.print(" ");
+motor_driver(avrageSpeed - error_value, avrageSpeed + error_value);
+  Serial.print(avrageSpeed - error_value);
+  Serial.print(" ");
+ Serial.print(avrageSpeed + error_value);
+ Serial.println(" " );
+ delay(500);
+// 
 }
 
 void motor_driver(int Left_motor_speed, int Right_motor_speed){
@@ -111,35 +113,37 @@ int read_sensor(){
       }
       for (int i =0; i<=15; i++){
 
-        avg += sensor[i]*i*1000;
+        avg += sensor[i]*i*100;
         sum_of += sensor[i];
 
 //        Serial.print(sensor[i]);
 //        Serial.print(' ');
         }
-
-        pos = avg/sum_of;
+if(sum_of == 0) pos = 750;
+else  pos = avg/sum_of;
 //         Serial.print(avg);
 //         Serial.print(' ');
 //         Serial.print(sum_of);
 //         Serial.print(' ');
-//         Serial.print(pos);
+//         
 //        
 //        
-//         Serial.println(' ');
+//         Serial.println(pos);
 //         delay(1000);
 
       return pos;
     }
 
- int pid_calculation(){
+float pid_calculation(){
     error = read_sensor()- set_point;
 //    Serial.println(error);
 //    delay(200);
     proportional = kp*error;
+//    Serial.println(proportional);
+//    delay(200);
     derivative = kd*(error - last_error);
     last_error = error;
-    error_value = int((proportional + derivative)*1000);
+    error_value = proportional + derivative;
     return error_value;
     //Serial.println(error_value);
     //delay(200);
