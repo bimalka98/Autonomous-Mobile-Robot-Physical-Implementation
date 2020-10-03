@@ -1,0 +1,10 @@
+Added Component: Designator=A(ARDUINO_A000067)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "A000067"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/A000067/Arduino/view-part/557398/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1
