@@ -14,7 +14,7 @@ This repository includes all the project files related to development of an `Ard
 
 Brief introduction about the files in repository are given below.
 ## Documentation
-`Documentation` folder includes some of the important documents related to the design of mobile robot.
+`Documentation` folder includes some of the important documents related to the design of a mobile robot.
 
 
 #### ArduinoMega2560.pdf
@@ -59,7 +59,7 @@ Thalagala B.P. https://bimalka98.github.io/
 3. Nagasinghe K.R.Y. https://github.com/Ravindu-Yasas-Nagasinghe
 4. Kumarasinghe H.A.N.H. https://github.com/nikeshi99
 
-## Nothing Happens Over Night
+## Nothing Happens Over Night 😈
 
 Some of the moments of actual robot implementation...
 
