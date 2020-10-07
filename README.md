@@ -5,7 +5,7 @@ This repository includes all the project files related to development of an `Ard
 
 ## Current Status of the Project
 
-* Algorithms were developed. 
+* Algorithms were developed.
 * Working on coding.
 * Physical Robot building stage was initialized.
 
@@ -46,9 +46,12 @@ A summary on the `Subsumption Architecture` is given in this document. It is ver
 This folder contains the most fundamental Arduino sketches for various sub tasks encountered while designing the robot.
 * Drive a Servo motor
 * Drive a DC motor through L298N motor driver
+* Drive a DC motor through VNH5019A Motor Driver-POLOLU
+* Measuring distances using SharpIR
+
 
 ### Team leader   
-Thalagala B.P. https://github.com/bimalka98
+Thalagala B.P. https://bimalka98.github.io/
 
 ### Team members
 1. Sandeepa H.K.C.A https://github.com/AvishkaSandeepa
@@ -56,3 +59,10 @@ Thalagala B.P. https://github.com/bimalka98
 3. Nagasinghe K.R.Y. https://github.com/Ravindu-Yasas-Nagasinghe
 4. Kumarasinghe H.A.N.H. https://github.com/nikeshi99
 
+## Nothing Happens Over Night
+
+Some of the moments of actual robot implementation...
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg)*IR sensor Panel: before mounting*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/2.jpg)*Mounting the robot brain: ArduinoMega2560*
