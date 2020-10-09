@@ -66,3 +66,7 @@ Some of the moments of actual robot implementation...
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg)*IR sensor Panel: before mounting*
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/2.jpg)*Mounting the robot brain: ArduinoMega2560*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/3.jpg)*Drilling holes to mount motors*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/4.jpg)*Checking the power distribution unit*
