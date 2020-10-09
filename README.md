@@ -11,7 +11,7 @@ This repository includes all the project files related to development of an `Ard
 * Working on coding.
 * Physical Robot building stage was initialized.
 
-# *Brief introduction about the files in repository are given below.*
+# *Brief introduction about the files in repository*
 
 ### LatestStable
 This folder contains the latest stable version of the Arduino code tested and debugged by the team.
