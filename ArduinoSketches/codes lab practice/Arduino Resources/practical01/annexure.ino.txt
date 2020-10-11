@@ -1,0 +1,28 @@
+#define enA 5 
+#define in1 6 
+#define in2 7 
+  
+const int encoderIn =3;  
+const int statusLED = 13;  
+int detectState=0; 
+volatile int count = 0; 
+  
+// Interrupt Service Routine (ISR) 
+void encIncrement () {  
+   count ++; 
+}  
+  
+void setup () { 
+  pinMode(enA, OUTPUT);   pinMode(in1, OUTPUT);   pinMode(in2, OUTPUT); 
+  // Set initial rotation direction   
+  digitalWrite(in1, LOW);   
+  digitalWrite(in2, HIGH); 
+  pinMode (statusLED, OUTPUT);  // so we can update the LED   
+  pinMode (encoderIn, INPUT); 
+  attachInterrupt (digitalPinToInterrupt (encoderIn), encIncrement, RISING);  
+  // attach interrupt handler 
+}  
+  
+void loop() {  
+  // Add your code here 
+} 

@@ -1,0 +1,23 @@
+const int encoderIn = 3;  
+const int statusLED = 13;  
+int detectState=0;  
+  
+void setup() 
+{ 
+   pinMode(encoderIn, INPUT);     
+   pinMode(statusLED, OUTPUT);  
+} 
+void loop() {                           
+   // Poll the encoder reading      
+   detectState=digitalRead(encoderIn);    
+   if (detectState == HIGH) {           
+     // If encoder output is high 
+     digitalWrite(statusLED, HIGH);    
+     // Turn on the status LED 
+   } 
+   else {                               
+      // Else 
+      digitalWrite(statusLED, LOW);     
+      // Turn off the status LED 
+   } 
+} 

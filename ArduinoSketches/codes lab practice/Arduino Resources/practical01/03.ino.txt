@@ -1,0 +1,24 @@
+const int encoderIn = 3;  
+const int statusLED = 13;  
+int detectState=0; 
+volatile int count = 0; 
+  
+// Interrupt Service Routine (ISR) 
+void encIncrement () {   
+  count ++; 
+}  
+  
+void setup () 
+{ 
+  pinMode (statusLED, OUTPUT);  
+  // so we can update the LED   
+  pinMode (encoderIn, INPUT);   
+  // attach interrupt handler   
+  attachInterrupt (digitalPinToInterrupt (encoderIn), encIncrement, RISING);     
+  Serial.begin(115200); 
+  // Open serial monitor at 115200 baud. 
+}  
+  
+void loop() {  
+  Serial.println(count); 
+} 

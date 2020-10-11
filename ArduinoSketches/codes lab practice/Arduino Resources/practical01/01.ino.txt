@@ -1,0 +1,24 @@
+#define enA 5 
+#define in1 6 
+#define in2 7 
+  
+void setup() { 
+  pinMode(enA, OUTPUT);   
+  pinMode(in1, OUTPUT);     
+  pinMode(in2, OUTPUT); 
+  
+  // Set initial rotation direction   
+  digitalWrite(in1, LOW);   
+  digitalWrite(in2, HIGH); 
+} 
+void loop() { 
+  // Send PWM signal to L298N Enable pin   
+  analogWrite(enA, 127);    
+  // Switch rotation direction   
+  digitalWrite(in1, LOW);   
+  digitalWrite(in2, HIGH);    
+  delay(2000); 
+  digitalWrite(in1, HIGH);   
+  digitalWrite(in2, LOW);   
+  delay(2000); 
+} 
