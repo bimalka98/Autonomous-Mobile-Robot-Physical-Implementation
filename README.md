@@ -7,6 +7,10 @@ This repository includes all the project files related to development of an `Ard
 
 ---
 
+<h1 align="center"> Contents </h1>
+
+1. [Current Status of the Project](#current-status-of-the-project)
+
 ## *Current Status of the Project*
 
 * Algorithms were developed.
