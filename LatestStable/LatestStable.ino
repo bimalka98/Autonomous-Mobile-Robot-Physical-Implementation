@@ -1,21 +1,20 @@
-// **********************Pins definitions for motor driver**********************
-// #define PWM1 2   //Motor 1 PWM
-// #define INAM1 22 //Motor 1
-// #define INBM1 24 //Motor 1
-// #define PWM2 3   //Motor 2 PWM
-// #define INAM2 26 //Motor 2
-// #define INBM2 28 //Motor 2
+//************************Including necessary libraries*************************
+#include <DualVNH5019MotorShield.h> // Library for motor driver
+#include <SharpIR.h> // Library for SharpIRs
 
-#include <DualVNH5019MotorShield.h>
+//*******************************Defining objects*******************************
 DualVNH5019MotorShield motors;
-
-const int base_speed = 90; // Speed of the motors at error 0
-//const int max_speed = 150; // Speed of the motors at max error
+SharpIR SharpIR1(A12, 1080); // define input pin and model for SharpIR1
+SharpIR SharpIR2(A13, 1080); // define input pin and model for SharpIR2
+// SharpIR1.distance();  // this returns the distance to the object
 
 //*******************Variables definitions for line following*******************
+const int base_speed = 90; // Speed of the motors at error 0
+const int max_speed = 150; // Speed of the motors at max error
+
 long sum_of =0;
 long avg = 0;
-long sensor[16]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+long sensor[12]={0,0,0,0,0,0,0,0,0,0,0,0}; // A0-A11 analogRead store
 long error = 0;
 long last_error = 0;
 long set_point = 750;
@@ -28,16 +27,8 @@ long kd = 25;
 
 
 void setup() {
-  //--------------------------PinMode setup for motors--------------------------
-  motors.init();
-  // pinMode(PWM1, OUTPUT);
-  // pinMode(INAM1, OUTPUT);
-  // pinMode(INBM1, OUTPUT);
-  // pinMode(PWM2, OUTPUT);
-  // pinMode(INAM2, OUTPUT);
-  // pinMode(INBM2, OUTPUT);
-  //---------------------------Communication with PC----------------------------
-  Serial.begin(9600);
+  motors.init(); //PinMode setup for motors
+  Serial.begin(9600); //enable communication with PC
 }
 
 void loop()
@@ -58,41 +49,12 @@ void loop()
 
 //*****************************Function Definitions***************************//
 
-//----------------------------Forward Motor Driving-----------------------------
-// void motor_driver(int Left_motor_speed, int Right_motor_speed){
-//   if (Left_motor_speed > 0){
-//       if (Left_motor_speed > 255) Left_motor_speed = max_speed;
-//     digitalWrite(INAM1,HIGH);
-//     digitalWrite(INBM1,LOW);
-//     analogWrite(PWM1,Left_motor_speed);
-//     }
-//   else {
-//       if (Left_motor_speed < -255) Left_motor_speed = -1*max_speed;
-//     digitalWrite(INAM1,LOW);
-//     digitalWrite(INBM1,HIGH);
-//     analogWrite(PWM1,Left_motor_speed*(-1));
-//       }
-// // Do the same procedure for right motor as follows.
-//    if (Right_motor_speed > 0){
-//      if (Right_motor_speed > 255) Right_motor_speed = max_speed;
-//     digitalWrite(INAM2,HIGH);
-//     digitalWrite(INBM2,LOW);
-//     analogWrite(PWM2,Right_motor_speed);
-//     }
-//    else {
-//      if (Right_motor_speed < -255) Right_motor_speed = -1*max_speed;
-//     digitalWrite(INAM2,LOW);
-//     digitalWrite(INBM2,HIGH);
-//     analogWrite(PWM2,Right_motor_speed*-1);
-//     }
-//   }
-
 //--------------------------Reading the IR sensor array-------------------------
 int read_sensor(){
     long sum_of=0;
     long avg = 0;
     long pos = 0;
-    for (int i =0; i<=15; i++){
+    for (int i =0; i<=12; i++){
       sensor[i] = analogRead(i);
       if (sensor[i]<100) sensor[i]=1;
       else sensor[i]=0;
