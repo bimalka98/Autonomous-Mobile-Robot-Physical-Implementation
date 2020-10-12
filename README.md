@@ -74,6 +74,8 @@ Some of the moments of actual robot implementation...
 
 ---
 
+## *Team*
+
 #### *Team leader*
 Thalagala B.P. https://bimalka98.github.io/
 
