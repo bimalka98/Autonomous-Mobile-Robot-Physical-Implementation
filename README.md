@@ -1,8 +1,6 @@
-<h1 align="center"> Autonomous Mobile Robot </h1>
-
+<h1 align="center"> Building a Task Specific Autonomous Mobile Robot  </h1>
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Autonomous-Mobile-Robot?branch=master)](https://bettercodehub.com/)
-
 
 <h2 align="center"> Contents </h2>
 
