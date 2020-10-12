@@ -1,5 +1,16 @@
-# Autonomous-Mobile-Robot
+<h1 align="center"> Autonomous Mobile Robot </h1>
+
+
 [![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Autonomous-Mobile-Robot?branch=master)](https://bettercodehub.com/)
+
+
+<h2 align="center"> Contents </h2>
+
+<!-- number.[Title](link)-->
+1. [Introduction](#introduction)
+2. [Current Status of the Project](#current-status-of-the-project)
+
+---
 
 ## *Introduction*
 
@@ -8,12 +19,6 @@ This repository includes all the project files related to development of an `Ard
 ![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)
 
 ---
-
-<h1 align="center"> Contents </h1>
-
-<!-- number.[Title](link)-->
-1. [Introduction](#introduction)
-2. [Current Status of the Project](#current-status-of-the-project)
 
 ## *Current Status of the Project*
 
