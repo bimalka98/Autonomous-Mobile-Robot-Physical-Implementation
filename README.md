@@ -1,4 +1,4 @@
-<h1 align="center"> Building a Task Specific Autonomous Mobile Robot  </h1>
+<h1 align="center"> Building a Task-Specific Autonomous Mobile Robot  </h1>
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Autonomous-Mobile-Robot?branch=master)](https://bettercodehub.com/)
 
@@ -12,7 +12,7 @@
 
 ## *Introduction*
 
-This repository includes all the project files related to development of an `Arduino based autonomous mobile robot`. The project is being done by a team of 5 undergraduates at Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. Following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
+This repository includes all the project files related to the development of an `Arduino based autonomous mobile robot`. The project is being done by a team of 5 undergraduates at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. The following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
 
 
 ![Initial prototype Of the Mobile Robot](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG)*Version 1*
@@ -35,7 +35,7 @@ This repository includes all the project files related to development of an `Ard
 This folder contains the latest stable version of the Arduino code tested and debugged by the team.
 
 ### Arduino Sketches
-This folder contains the most fundamental Arduino sketches for various sub tasks encountered while designing the robot. Ex:
+This folder contains the most fundamental Arduino sketches for various sub-tasks encountered while designing the robot. Ex:
 * Drive a Servo motor
 * Drive a DC motor through L298N motor driver
 * Drive a DC motor through VNH5019A Motor Driver-POLOLU
