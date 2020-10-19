@@ -97,7 +97,7 @@ Some of the moments of actual robot implementation...
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/10.jpg)*Mounting the robot brain. ArduinoMega2560*
 
-![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures11.jpg)*Back view*
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/11.jpg)*Back view*
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/12.jpg)*Making the robot arm*
 
