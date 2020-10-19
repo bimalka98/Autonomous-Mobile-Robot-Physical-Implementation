@@ -77,7 +77,7 @@ Arduino libraries which were modified(or not modified) to suit to the given task
 
 # *Nothing Happens Over Night* 😈
 
->> Great things are not done by impulse, but by a series of small things brought together. ~ Vincent Van Gogh
+> Great things are not done by impulse, but by a series of small things brought together. ~ Vincent Van Gogh
 
 Some of the moments of actual robot implementation...
 
@@ -106,7 +106,7 @@ Some of the moments of actual robot implementation...
 
 ## *Team*
 
->> *Individual commitment to a group effort* --that is what makes a team work, a company work, a society work, a civilization work. ~ Vince Lombardi
+> *Individual commitment to a group effort* --that is what makes a team work, a company work, a society work, a civilization work. ~ Vince Lombardi
 
 #### *Team leader*
 Thalagala B.P. https://bimalka98.github.io/
