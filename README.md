@@ -5,9 +5,9 @@
 <h2 align="center"> Contents </h2>
 
 <!-- number.[Title](link)-->
-1. [Introduction](#introduction)
-2. [Current Status of the Project](#current-status-of-the-project)
-3. [Brief introduction about the files in repository](#brief-introduction-about-the-files-in-repository)
+1. [Introduction](#1introduction)
+2. [Current Status of the Project](#2current-status-of-the-project)
+3. [Brief introduction about the files in repository](#3brief-introduction-about-the-files-in-repository)
 
 ---
 
