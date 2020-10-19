@@ -77,19 +77,36 @@ Arduino libraries which were modified(or not modified) to suit to the given task
 
 # *Nothing Happens Over Night* 😈
 
+>> Great things are not done by impulse, but by a series of small things brought together. ~ Vincent Van Gogh
+
 Some of the moments of actual robot implementation...
 
-![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg)*IR sensor Panel: before mounting*
-
-![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/2.jpg)*Mounting the robot brain: ArduinoMega2560*
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg)*IR sensor Panel: 'Raykha S8' before mounting*
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/3.jpg)*Drilling holes to mount motors*
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/4.jpg)*Checking the power distribution unit*
 
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/5.jpg)*Mounting the motor driver: 'Dagaya 2.0'*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/6.jpg)*Mounting the power distribution unit*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/8.jpg)*Powering up the IR sensor panels*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/9.jpg)*Powering up the IR sensor panels. Side View*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/10.jpg)*Mounting the robot brain. ArduinoMega2560*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures11.jpg)*Back view*
+
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/12.jpg)*Making the robot arm*
+
+
 ---
 
 ## *Team*
+
+>> *Individual commitment to a group effort* --that is what makes a team work, a company work, a society work, a civilization work. ~ Vince Lombardi
 
 #### *Team leader*
 Thalagala B.P. https://bimalka98.github.io/

@@ -59,7 +59,7 @@ int read_sensor(){
       if (sensor[i]<100) sensor[i]=1;
       else sensor[i]=0;
       }
-    for (int i =0; i<=15; i++){
+    for (int i =0; i<=12; i++){
       avg += sensor[i]*i*100;
       sum_of += sensor[i];
       // Serial.print(sensor[i]); Serial.print(' ');
