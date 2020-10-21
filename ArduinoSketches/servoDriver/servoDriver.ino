@@ -1,6 +1,6 @@
 //Date June 03, 2020
 //Author Bimalka Piyaruwan Thalagala
-TabNine::config
+//TabNine::config
 //------------------------------------------------------
 //include the library needs to control the Servo.
 #include <Servo.h>
@@ -13,8 +13,8 @@ Servo mg90servo;
 // Define a global variable to store the position of the Servo
 int pos = 0;
 //Define varibles to use in potCtrlServo() function.
-int potpin = 5; // Pin where the pot is connected
-int val; // variable to keep the analog read value of pot.
+//int potpin = 5; // Pin where the pot is connected
+//int val; // variable to keep the analog read value of pot.
 
 
 //-----------------------------------------------------
@@ -27,36 +27,13 @@ void setup() {
 }
 
 void loop() {
-//calling defined functions
-//sweepServo();
-potCtrlServo();
-}
-
-
-//------------------------------------------------------------
-//Function defining.
-
-//Function to rotate theservo back and forth repeatedly
-
-void sweepServo() {
-  //Shaft position is incremented by steps of 1 degree.
-  for (pos = 0; pos <= 180; pos +=1) {
+    for (pos = 0; pos <= 50; pos +=1) {
     mg90servo.write(pos);
     delay(15);
   }
   //Shaft position is Decremented by steps of 1 degree.
-  for (pos = 180; pos >=0; pos -=1) {
+  for (pos = 50; pos >=0; pos -=1) {
     mg90servo.write(pos);
     delay(15);
-  }
 }
-
-//Function to control the position of the serovo by a pot.
-
-void potCtrlServo() {
-val = analogRead(potpin);
-Serial.println(val);
-val = map(val, 0, 1023, 0, 180);
-mg90servo.write(val);
-delay(20);
 }
