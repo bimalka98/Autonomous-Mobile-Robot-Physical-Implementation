@@ -4,11 +4,11 @@
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
-#define SERVOMIN  150 // This is the 'minimum' pulse length count (out of 4096)
-#define SERVOMAX  600 // This is the 'maximum' pulse length count (out of 4096)
-#define USMIN  600 // This is the rounded 'minimum' microsecond length based on the minimum pulse of 150
-#define USMAX  2700 // This is the rounded 'maximum' microsecond length based on the maximum pulse of 600
 #define SERVO_FREQ 50 // Analog servos run at ~50 Hz updates
+#define Gripper 11
+#define GripperBase 0
+#define Arm 6
+
 
 void setup() {
   pwm.begin();
@@ -21,37 +21,31 @@ void setup() {
 }
 void loop() {
 
-  for (uint16_t microsec = 600; microsec > 400; microsec--) {
-    pwm.writeMicroseconds(6, microsec);
-  }
-  delay(1000);
-  for (uint16_t microsec = 3000; microsec > 2500; microsec--) {
-    pwm.writeMicroseconds(0, microsec);
-  }
-  delay(1000); 
-    for (uint16_t microsec = 400; microsec < 1800; microsec++) {
-    pwm.writeMicroseconds(11, microsec);
-  }
-  delay(1000);
-  for (uint16_t microsec = 400; microsec < 2200; microsec++) {
-    pwm.writeMicroseconds(6, microsec);   
-  }
-  delay(1000);
-    for (uint16_t microsec = 2500; microsec < 6000; microsec++) {
-    pwm.writeMicroseconds(0, microsec);
-  }
-  delay(1000);
+  initializeArm();
+  rotateBox();
+  restArm();
 
-  for (uint16_t microsec = 1800; microsec > 400; microsec--) {
-    pwm.writeMicroseconds(11, microsec);
-  }
-  delay(1000);
-    for (uint16_t microsec = 6000; microsec > 2500; microsec--) {
-    pwm.writeMicroseconds(0, microsec);
-  }
-  delay(1000);
-    for (uint16_t microsec = 2200; microsec > 400; microsec--) {
-    pwm.writeMicroseconds(6, microsec);
-  }
-  delay(1000); 
+}
+
+void initializeArm() {
+  //Get the  arm to the initial position from wherever it was
+  for (uint16_t microsec = 6000; microsec >= 2000; microsec--) pwm.writeMicroseconds(Arm, microsec); delay(1000);
+  for (uint16_t microsec = 1000; microsec >= 400; microsec--) pwm.writeMicroseconds(Gripper, microsec); delay(500);
+  for (uint16_t microsec = 3200; microsec >= 2500; microsec--) pwm.writeMicroseconds(GripperBase, microsec); delay(500);
+  for (uint16_t microsec = 2000; microsec >= 400; microsec--) pwm.writeMicroseconds(Arm, microsec); delay(1000);
+}
+
+void rotateBox() {
+  // Roate the box 90 degred toward the robot
+  for (uint16_t microsec = 400; microsec <= 2200; microsec++) pwm.writeMicroseconds(Gripper, microsec); delay(500);
+  for (uint16_t microsec = 400; microsec <= 2500; microsec++) pwm.writeMicroseconds(Arm, microsec); delay(500);
+  for (uint16_t microsec = 2500; microsec <= 5500; microsec++) pwm.writeMicroseconds(GripperBase, microsec); delay(500);
+  for (uint16_t microsec = 2500; microsec >= 2000; microsec--) pwm.writeMicroseconds(Arm, microsec); delay(500);
+  for (uint16_t microsec = 2200; microsec >= 400; microsec--) pwm.writeMicroseconds(Gripper, microsec); delay(1000);
+}
+
+void restArm() {
+  for (uint16_t microsec = 2000; microsec <= 6000; microsec++) pwm.writeMicroseconds(Arm, microsec); delay(500);
+  for (uint16_t microsec = 1000; microsec >= 400; microsec--) pwm.writeMicroseconds(Gripper, microsec); delay(500);
+  for (uint16_t microsec = 3200; microsec >= 2500; microsec--) pwm.writeMicroseconds(GripperBase, microsec); delay(500);
 }
