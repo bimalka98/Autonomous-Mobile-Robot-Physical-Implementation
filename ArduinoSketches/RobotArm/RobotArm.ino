@@ -24,7 +24,7 @@ void loop() {
   initializeArm();
   rotateBox();
   restArm();
-
+  delay(5000);
 }
 
 void initializeArm() {

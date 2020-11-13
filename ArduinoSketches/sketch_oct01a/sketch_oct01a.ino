@@ -1,7 +1,7 @@
 #include <SharpIR.h>
 
-#define IR1 A1 // define signal pin
-#define IR2 A2 // define signal pin
+#define IR1 A0 // define signal pin
+#define IR2 A1 // define signal pin
 
 #define model1 1080 // for GP2Y0A21YK0F  used 1080
 #define model2 1080 // for GP2Y0A21YK0F  used 1080
@@ -17,7 +17,7 @@
 100 to 550 cm GP2Y0A710K0F  use 100550
 */
 SharpIR SharpIR1(IR1, model1);
-SharpIR SharpIR2(IR2, model2);
+//SharpIR SharpIR2(IR2, model2);
 
 void setup() {
     // Multiple Sharp IR Distance meter code for Robojax.com
@@ -37,16 +37,16 @@ void loop() {
   unsigned long startTime=millis();  // takes the time before the loop on the library begins
 
   int dis1=SharpIR1.distance();  // this returns the distance for sensor 1
-  int dis2=SharpIR2.distance();  // this returns the distance for sensor 2
+  //int dis2=SharpIR2.distance();  // this returns the distance for sensor 2
   // Sharp IR code for Robojax.com 20181201
 
   Serial.print("Distance (1): ");
   Serial.print(dis1);
   Serial.println("cm");
   
-  Serial.print("Distance (2): ");
-  Serial.print(dis2);
-  Serial.println("cm");
+//  Serial.print("Distance (2): ");
+//  Serial.print(dis2);
+//  Serial.println("cm");
      // Sharp IR code for Robojax.com
      
 }
