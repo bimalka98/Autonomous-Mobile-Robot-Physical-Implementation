@@ -29,16 +29,16 @@ void setup() {
 }
 
 void loop() {
-int drivedistance(int millimeters)
+int drivedistance(int millimeters)// function to give the needed distance to travel
 
 }
 void drivedistance(int millimeters){
   motors.setSpeeds( 00,  00);
   int tickGoal = (35*millimeters)/10;// Defining number of ticks required to travel the distance
   while ((leftCount<ticks) ||  (rightCount<ticks)){
-    motors.setSpeeds( 20,  20);
+    motors.setSpeeds( 20,  20);//starting motors to trael needed distance
     }
-    motors.setSpeeds( 00,  00);
+    motors.setSpeeds( 00,  00);//stopping motors after the required distance
   }
 // encoder event for the interrupt call
 void leftEncoderEvent() {
