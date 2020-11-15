@@ -12,6 +12,7 @@ volatile unsigned long leftCount = 0;
 volatile unsigned long rightCount = 0;
 int millimetersLeft = 180;// just defining length to travel for left encoder
 int millimetersRight = 10;// just defining length to travel for Right encoder
+int millimetersStraight = 50;// just defining length to travel for  encoder to go straight
 DualVNH5019MotorShield motors;
 void setup() {
   motors.init();
@@ -31,7 +32,19 @@ void setup() {
 void loop() {
 int drivedistanceLeft(int millimetersLeft);// function to give the needed distance to travel for left encoder
 int drivedistanceRight(int millimetersRight);// function to give the needed distance to travel for right encoder
+int drivedistanceStraight(int millimetersStraight);// function to give the needed distance to travel straight for any encoder
 }
+void drivedistanceStraight(int millimetersStraight){
+  motors.setSpeeds( 00,  00);
+  delay(10);
+  int tickGoalStraight = (35*millimetersStraight)/10;// Defining number of ticks required to travel the distance
+  while ((leftCount<tickGoalStraight) || (rightCount<tickGoalStraight)){
+    motors.setSpeeds( 20,  20);//starting motors to trael needed distance
+    delay(1000);
+    }
+    motors.setSpeeds( 00,  00);//stopping motors after the required distance
+    delay(10);
+  }
 void drivedistanceLeft(int millimetersLeft){
   motors.setSpeeds( 00,  00);
   delay(10);
