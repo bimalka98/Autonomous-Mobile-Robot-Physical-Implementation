@@ -10,8 +10,8 @@
 // for each motor
 volatile unsigned long leftCount = 0;
 volatile unsigned long rightCount = 0;
-int millimeters = 180;// just defining length to travel for now
-int ticks=0;
+int millimetersLeft = 180;// just defining length to travel for left encoder
+int millimetersRight = 10;// just defining length to travel for Right encoder
 DualVNH5019MotorShield motors;
 void setup() {
   motors.init();
@@ -29,17 +29,32 @@ void setup() {
 }
 
 void loop() {
-int drivedistance(int millimeters)// function to give the needed distance to travel
-
+int drivedistanceLeft(int millimetersLeft);// function to give the needed distance to travel for left encoder
+int drivedistanceRight(int millimetersRight);// function to give the needed distance to travel for right encoder
 }
-void drivedistance(int millimeters){
+void drivedistanceLeft(int millimetersLeft){
   motors.setSpeeds( 00,  00);
-  int tickGoal = (35*millimeters)/10;// Defining number of ticks required to travel the distance
-  while ((leftCount<ticks) ||  (rightCount<ticks)){
-    motors.setSpeeds( 20,  20);//starting motors to trael needed distance
+  delay(10);
+  int tickGoalLeft = (35*millimetersLeft)/10;// Defining number of ticks required to travel the distance
+  while (leftCount<tickGoalLeft){
+    motors.setSpeeds( 20,  -20);//starting motors to trael needed distance
+    delay(1000);
     }
     motors.setSpeeds( 00,  00);//stopping motors after the required distance
+    delay(10);
   }
+ void drivedistanceRight(int millimetersRight){
+  motors.setSpeeds( 00,  00);
+  delay(10);
+  int tickGoalRight = (35*millimetersRight)/10;// Defining number of ticks required to travel the distance
+  while (rightCount<tickGoalRight){
+    motors.setSpeeds( -20,  20);//starting motors to trael needed distance
+    delay(1000);
+    }
+    motors.setSpeeds( 00,  00);//stopping motors after the required distance
+    delay(10);
+ }
+
 // encoder event for the interrupt call
 void leftEncoderEvent() {
   if (digitalRead(LH_ENCODER_A) == HIGH) {
