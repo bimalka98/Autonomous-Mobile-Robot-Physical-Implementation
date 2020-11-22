@@ -101,6 +101,8 @@ Some of the moments of actual robot implementation...
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/12.jpg)*Making the robot arm*
 
+![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/13.jpg)*Robot up to now*
+
 
 ---
 
@@ -109,10 +111,10 @@ Some of the moments of actual robot implementation...
 > *Individual commitment to a group effort* --that is what makes a team work, a company work, a society work, a civilization work. ~ Vince Lombardi
 
 #### *Team leader*
-Thalagala B.P. https://bimalka98.github.io/
+[Thalagala B.P.](https://bimalka98.github.io/)
 
 #### *Team members*
-1. Sandeepa H.K.C.A https://github.com/AvishkaSandeepa
-2. Hewavitharana D.R. https://github.com/Hevidra
-3. Nagasinghe K.R.Y. https://github.com/Ravindu-Yasas-Nagasinghe
-4. Kumarasinghe H.A.N.H. https://github.com/nikeshi99
+1. [Sandeepa H.K.C.A](https://github.com/AvishkaSandeepa)
+2. [Hewavitharana D.R.](https://github.com/Hevidra)
+3. [Nagasinghe K.R.Y.](https://github.com/Ravindu-Yasas-Nagasinghe)
+4. [Kumarasinghe H.A.N.H.](https://github.com/nikeshi99)

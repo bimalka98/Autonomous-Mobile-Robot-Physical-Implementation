@@ -31,7 +31,7 @@ long pos = 0;
 long proportional = 0;
 long derivative = 0;
 long error_value = 0;
-long kp = 9.5;
+long kp = 8;
 long kd = 25;
 
 
@@ -46,20 +46,21 @@ void setup() {
 
 void loop()
 {
-//  Serial.println(SharpIR1.distance());
-//  if (SharpIR1.distance() == 16) {
-//    delay(250);
-//    if (SharpIR1.distance() == 16) {
-//      Serial.println(SharpIR1.distance());
-      initializeArm();
-      rotateBox();
-      restArm();
-//    }
-//  }
-  //error_value = pid_calculation() / 100;
+  //  Serial.println(SharpIR1.distance());
+  //  if (SharpIR1.distance() == 16) {
+  //    delay(250);
+  //    if (SharpIR1.distance() == 16) {
+  //      Serial.println(SharpIR1.distance());
+  //      initializeArm();
+  //      rotateBox();
+  //      restArm();
+  //    }
+  //  }
+  
+  error_value = pid_calculation() / 100;
   // Serial.print(error_value);
   // Serial.print(" ");
-  //motors.setSpeeds(base_speed - error_value, base_speed + error_value);
+  motors.setSpeeds(base_speed + error_value, base_speed - error_value);
   //motor_driver(base_speed - error_value, base_speed + error_value);
   // Serial.print(base_speed - error_value);
   // Serial.print(" ");
