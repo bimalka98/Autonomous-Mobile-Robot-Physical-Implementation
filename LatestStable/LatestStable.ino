@@ -12,7 +12,7 @@
 
 //*******************************Defining objects*******************************
 DualVNH5019MotorShield motors;
-SharpIR SharpIR1(A0, 1080); // define input pin and model for SharpIR1
+SharpIR SharpIR1(A12, 1080); // define input pin and model for SharpIR1
 //SharpIR SharpIR2(A13, 1080); // define input pin and model for SharpIR2
 // SharpIR1.distance();  // this returns the distance to the object
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
@@ -46,16 +46,16 @@ void setup() {
 
 void loop()
 {
-  Serial.println(SharpIR1.distance());
-  if (SharpIR1.distance() == 16) {
-    delay(250);
-    if (SharpIR1.distance() == 16) {
-      Serial.println(SharpIR1.distance());
+//  Serial.println(SharpIR1.distance());
+//  if (SharpIR1.distance() == 16) {
+//    delay(250);
+//    if (SharpIR1.distance() == 16) {
+//      Serial.println(SharpIR1.distance());
       initializeArm();
       rotateBox();
       restArm();
-    }
-  }
+//    }
+//  }
   //error_value = pid_calculation() / 100;
   // Serial.print(error_value);
   // Serial.print(" ");
