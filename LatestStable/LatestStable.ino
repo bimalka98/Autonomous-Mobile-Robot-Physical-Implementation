@@ -25,7 +25,8 @@ const int max_speed = 150; // Speed of the motors at max error
 
 long sum_of = 0;
 long avg = 0;
-long sensor[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // A0-A11 analogRead store
+long sensor
+[12] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // A0-A11 analogRead store
 long error = 0;
 long last_error = 0;
 long set_point = 750;
@@ -48,22 +49,22 @@ void setup() {
 
 void loop()
 {
-  //  Serial.println(SharpIR1.distance());
-  //  if (SharpIR1.distance() == 16) {
-  //    delay(250);
-  //    if (SharpIR1.distance() == 16) {
-  //      Serial.println(SharpIR1.distance());
-  //      initializeArm();
-  //      rotateBox();
-  //      restArm();
-  //    }
-  //  }
+    Serial.println(SharpIR1.distance());
+    if (SharpIR1.distance() == 16) {
+      delay(250);
+      if (SharpIR1.distance() == 16) {
+        Serial.println(SharpIR1.distance());
+        initializeArm();
+        rotateBox();
+        restArm();
+      }
+    }
   
-  error_value = pid_calculation() / 100;
-  // Serial.print(error_value);
-  // Serial.print(" ");
-  motors.setSpeeds(base_speed + error_value, base_speed - error_value);
-  //motor_driver(base_speed - error_value, base_speed + error_value);
+//  error_value = pid_calculation() / 100;
+//  // Serial.print(error_value);
+//  // Serial.print(" ");
+//  motors.setSpeeds(base_speed + error_value, base_speed - error_value);
+//  //motor_driver(base_speed - error_value, base_speed + error_value);
   // Serial.print(base_speed - error_value);
   // Serial.print(" ");
   // Serial.print(base_speed + error_value);
