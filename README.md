@@ -83,7 +83,8 @@ Arduino libraries which were modified(or not modified) to suit to the given task
 
 Some of the moments of actual robot implementation...
 
-<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg" height="200" /><em>IR sensor Panel: 'Raykha S8' before mounting</em>
+<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg" height="200" />
+*IR sensor Panel: 'Raykha S8' before mounting*
 
 ![](https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg)*IR sensor Panel: 'Raykha S8' before mounting*
 
