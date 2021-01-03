@@ -29,7 +29,7 @@ This repository includes all the project files related to the development of an 
 * Algorithms were developed.
 * Working on coding.
 * Physical Robot building stage was initialized.
-* Robot arm basic motion was implemented.
+* Robot arm's basic motion was implemented.
 * Line following algirithm is being debugged.
 
 ---
