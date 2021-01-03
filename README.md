@@ -81,21 +81,21 @@ Arduino libraries which were modified(or not modified) to suit to the given task
 
 > Great things are not done by impulse, but by a series of small things brought together. ~ Vincent Van Gogh
 
-Some of the moments of actual robot implementation...
+**Some of the moments of actual robot implementation...**
 
 |Image|Description|
 |:----:|:----|
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg"  width="500" />| *IR sensor Panel: 'Raykha S8' before mounting* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/3.jpg"  width="500" />| *Drilling holes to mount motors* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/4.jpg"  width="500" />| *Checking the power distribution unit* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/5.jpg"  width="500" />| *Mounting the motor driver: 'Dagaya 2.0'* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/6.jpg"  width="500" />| *Mounting the power distribution unit* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/8.jpg"  width="500" />| *Powering up the IR sensor panels* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/9.jpg"  width="500" />| *Powering up the IR sensor panels. Side View* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/10.jpg" width="500" />|  *Mounting the robot brain. ArduinoMega2560* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/11.jpg" width="500" />|  *Back view* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/12.jpg" width="500" />|  *Making the robot arm* |
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/13.jpg" width="500" />|  *Robot up to now* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/1.jpg"  width="450" />| *IR sensor Panel: 'Raykha S8' before mounting* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/3.jpg"  width="450" />| *Drilling holes to mount motors* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/4.jpg"  width="450" />| *Checking the power distribution unit* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/5.jpg"  width="450" />| *Mounting the motor driver: 'Dagaya 2.0'* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/6.jpg"  width="450" />| *Mounting the power distribution unit* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/8.jpg"  width="450" />| *Powering up the IR sensor panels* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/9.jpg"  width="450" />| *Powering up the IR sensor panels. Side View* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/10.jpg" width="450" />|  *Mounting the robot brain. ArduinoMega2560* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/11.jpg" width="450" />|  *Back view* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/12.jpg" width="450" />|  *Making the robot arm* |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/13.jpg" width="450" />|  *Robot up to now* |
 
 
 
