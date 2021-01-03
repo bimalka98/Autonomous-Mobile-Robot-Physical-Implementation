@@ -8,6 +8,8 @@
 1. [Introduction](#1introduction)
 2. [Current Status of the Project](#2current-status-of-the-project)
 3. [Brief introduction about the files in repository](#3brief-introduction-about-the-files-in-repository)
+4. [Physical Robot Implementation](#nothing-happens-over-night)
+5. [Our team](#team)
 
 ---
 
