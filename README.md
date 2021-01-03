@@ -5,15 +5,15 @@
 <h2 align="center"> Contents </h2>
 
 <!-- number.[Title](link)-->
-1. [Introduction](#1introduction)
-2. [Current Status of the Project](#2current-status-of-the-project)
-3. [Brief introduction about the files in repository](#3brief-introduction-about-the-files-in-repository)
-4. [Physical Robot Implementation](#nothing-happens-over-night)
+1. [Introduction](#introduction)
+2. [Current Status of the Project](#current-status-of-the-project)
+3. [Brief introduction about the files in repository](#brief-introduction-about-the-files-in-repository)
+4. [Physical Robot Implementation](#nothing-happens-over-night-)
 5. [Our team](#team)
 
 ---
 
-## *1.Introduction*
+## *Introduction*
 
 This repository includes all the project files related to the development of an `Arduino based autonomous mobile robot`. The project is being done by a team of 5 undergraduates at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. The following figure illustrates the `initial prototype` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
 
@@ -24,7 +24,7 @@ This repository includes all the project files related to the development of an 
 
 ---
 
-## *2.Current Status of the Project*
+## *Current Status of the Project*
 
 * Algorithms were developed.
 * Working on coding.
@@ -34,7 +34,7 @@ This repository includes all the project files related to the development of an 
 
 ---
 
-## *3.Brief introduction about the files in repository*
+## *Brief introduction about the files in repository*
 
 ### LatestStable
 This folder contains the latest stable version of the Arduino code tested and debugged by the team.
