@@ -19,7 +19,7 @@ This repository includes all the project files related to the development of an 
 
 |*Version 1*|*Version 2*|
 |:----:|:----:|
-|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG" width="450" />||<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robotV2.JPG" width="450" /> |
+|<img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robot.PNG" width="500" />| <img src="https://github.com/bimalka98/Autonomous-Mobile-Robot/blob/master/Figures/robotV2.JPG" width="500" /> |
 
 
 ---
