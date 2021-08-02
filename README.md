@@ -1,18 +1,3 @@
-<h1 align="center"> Building a Task-Specific Autonomous Mobile Robot  </h1>
-
-[![BCH compliance](https://bettercodehub.com/edge/badge/bimalka98/Autonomous-Mobile-Robot?branch=master)](https://bettercodehub.com/)
-
-<h2 align="center"> Contents </h2>
-
-<!-- number.[Title](link)-->
-1. [Introduction](#introduction)
-2. [Current Status of the Project](#current-status-of-the-project)
-3. [Brief introduction about the files in repository](#brief-introduction-about-the-files-in-repository)
-4. [Physical Robot Implementation](#nothing-happens-over-night-)
-5. [Our team](#team)
-
----
-
 ## *Introduction*
 
 This repository includes all the project files related to the development of an `Arduino based autonomous mobile robot`. The project is being done by a team of 5 undergraduates at the Department of Electronic and Telecommunication Engineering, University of Moratuwa, Sri Lanka. The following figures illustrates the `initial prototypes` of the planned mobile robot design and it may be subjected to various changes during the actual robot implementing stage due to possible reasons.
