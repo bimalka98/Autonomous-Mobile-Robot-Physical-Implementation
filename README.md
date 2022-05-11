@@ -103,4 +103,4 @@ Arduino libraries which were modified(or not modified) to suit to the given task
 
 ## *Additional Notes*
 
-*The [Webots](https://cyberbotics.com/) robot simulator implementation of this Robot can be found at [`webots-Autonomous-Mobile-Robot`](https://github.com/AvishkaSandeepa/webots-Autonomous-Mobile-Robot).*
+*The [Webots](https://cyberbotics.com/) robot simulator implementation of this Robot can be found at [`webots-Autonomous-Mobile-Robot`](https://github.com/bimalka98/Autonomous-Mobile-Robot-Webots-Simulation).*
